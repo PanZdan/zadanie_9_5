@@ -1,8 +1,10 @@
 // // scripts.js
 
-var buttonClass = document.getElementsByClassName('button');
+var myButtons = document.getElementsByClassName('button');
+// var myButtonsLength = myButtons.length;
+// console.log(myButtons);
+// console.log(myButtonsLength);
 
-for (i = 0; i < buttonClass.length; i++); {
-
-	console.log(buttonClass[0].innerText);
+for (i = 0; i < myButtons.length; i++) {
+	console.log(myButtons[i].innerText);
 }
